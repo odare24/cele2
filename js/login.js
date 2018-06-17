@@ -1,7 +1,12 @@
 //var portfolioPostsBtn = document.getElementById("portfolio-posts-btn");
     
-document.addEventListener("deviceready", onDeviceReady, false);
-  // $(document).ready(function()
+
+$(document).ready(function(){
+
+  document.addEventListener("deviceready", onDeviceReady, false);
+
+    });
+      
     
     //
 
@@ -11,9 +16,14 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 
 
-      function onDeviceReady(){
+     function onDeviceReady(){
 
       $("#login").click(function(){
+
+     
+     // $(document).on('click','#login', function(){
+        
+
         var username = $("#username").val();
         var password = $("#password").val();
         var dataString = "username="+username+"&password="+password+"&insecure=cool";
@@ -45,4 +55,4 @@ document.addEventListener("deviceready", onDeviceReady, false);
       }
 
       );
-    }
+}

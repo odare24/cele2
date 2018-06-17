@@ -1,16 +1,12 @@
-document.addEventListener("deviceready", onDeviceReady, false);
-  // $(document).ready(function()
-    
-    //
 
+$(document).ready(function(){
 
-      //$("#login").click(function(){
-      //  var username = $("#username").val();
+  document.addEventListener("deviceready", onDeviceReady, false);
 
+    });
 
 
 function onDeviceReady(){
-
 
 //   $(document).ready(function(){
       $("#register").click(function(){
